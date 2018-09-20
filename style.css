@@ -1,0 +1,82 @@
+body, div, h1, form, fieldset, input, textarea {
+	margin: 0; padding: 0; border:0; outline: none;
+}
+
+body {
+	background-image: url(BGgeorge.png);
+	background-position: 50% 1%;
+	background-repeat: no-repeat;
+	color: #111;
+	text-shadow: 0px 0px 5px rgba(255, 0, 0, 0.4);
+}
+
+h1 {
+	font-family: 'Kavoon', cursive;
+	font-size: 50px;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 26px;
+}
+
+a {
+	color: deeppink;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+}
+
+a:link, a:visited  {
+	transition: 0.25s;
+}
+
+.text {
+	width: 50%;
+	min-width: 700px;
+	margin: auto;
+	padding: 40px;
+}
+
+.button {
+	text-decoration: none;
+	background-color: red;
+	border: none;
+	color: white;
+	padding: 15px 25px;
+	text-align: center;
+	font-size: 16px;
+	cursor: pointer;
+	align-content: center;
+	border-radius: 12px;
+}
+
+.button:hover {
+    background-color: darkred;
+}
+
+.center-fit {
+   		max-width: 100%;
+   		max-height: 100vh;
+   		margin: auto;
+}
+
+#header, #header2 {
+	text-align: center;
+	padding-top: 40vh;
+	z-index: 2;
+	max-height: 1200px;
+	height: 90vh;
+	width: 100%;
+}
+
+#onceUponATime1, #onceUponATime2, #onceUponATime3, #onceUponATime4, #onceUponATime5, #onceUponATime6, #onceUponATime7,
+#onceUponATime8, #onceUponATime9, #onceUponATime10 {
+	padding: 30vh 30px;
+}
+
+#footer {
+		color: red;
+		font-size: 12px;
+		text-align: center;
+		padding: 50px 30px;
+}
